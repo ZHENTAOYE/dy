@@ -1,0 +1,24 @@
+{
+  "name": "quantum-error-correction",
+  "version": "1.0.0",
+  "description": "量子纠错科普动画（Remotion 纯代码绘制）",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render QuantumErrorCorrection out/quantum-error-correction.mp4",
+    "still": "remotion still QuantumErrorCorrection out/still.png",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "^4.0.531",
+    "@remotion/media": "^4.0.531",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.531"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

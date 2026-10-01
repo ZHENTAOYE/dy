@@ -1,0 +1,11 @@
+[
+  {"key": "hook", "name": "开场", "dur": 210},
+  {"key": "qubit", "name": "量子比特", "dur": 360},
+  {"key": "noise", "name": "噪声", "dur": 420},
+  {"key": "classical", "name": "经典纠错", "dur": 270},
+  {"key": "walls", "name": "三道难关", "dur": 330},
+  {"key": "trick", "name": "妙招", "dur": 570},
+  {"key": "surface", "name": "表面码", "dur": 480},
+  {"key": "threshold", "name": "阈值", "dur": 450},
+  {"key": "outro", "name": "结尾", "dur": 300}
+]
