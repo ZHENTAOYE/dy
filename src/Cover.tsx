@@ -9,7 +9,7 @@ import {alpha, C, FONT} from './theme';
 const D = 7;
 const S = 120;
 const OX = 540 - 3 * S;
-const OY = 1240 - 3 * S;
+const OY = 1600 - 3 * S;
 
 /** 抖音封面（静帧） */
 export const Cover: React.FC = () => (
@@ -17,7 +17,7 @@ export const Cover: React.FC = () => (
     <Background tintA={C.violet} tintB={C.cyan} danger={0} />
     <GodRays opacity={0.9} color={C.cyan} y="34%" />
     <Canvas>
-      <g transform="translate(540 1240) scale(1 0.55) rotate(45) translate(-540 -1240)" opacity={0.75}>
+      <g transform="translate(540 1600) scale(1 0.55) rotate(45) translate(-540 -1600)" opacity={0.75}>
         {buildLattice(D).map((p) => {
           const col = p.type === 'X' ? C.cyan : C.magenta;
           const hot = p.key === 's2-3' || p.key === 's4-3';
